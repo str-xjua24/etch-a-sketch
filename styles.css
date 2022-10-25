@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#grid-container {
+  width: 800px; /*800px*/
+  height: 800px; /*800px*/
+  background-color: antiquewhite;
+  margin: 0 auto;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.grid-box-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-box-column {
+  width: 100px; /*100px*/
+  height: 49px; /*99px*/
+  background-color: white;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+#option-btns {
+  text-align: center;
+}
